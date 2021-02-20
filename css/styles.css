@@ -1,0 +1,21 @@
+body {
+    background-color: #FF5A5A;
+    height: 100%;
+    font-family: 'tradegothiclt-bold', sans-serif;
+}
+
+h9 {
+    font-size: 5em;
+    color: white;
+}
+
+span {
+    border-right: .04em solid;
+    animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+    50% {
+        border-color: transparent;
+    }
+}
